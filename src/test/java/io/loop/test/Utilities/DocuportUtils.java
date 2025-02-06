@@ -72,6 +72,7 @@ public class DocuportUtils {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         WebElement logOut = driver.findElement(By.xpath("//span[contains(text(),'Log out')]"));
         logOut.click();
-
     }
+
+
 }

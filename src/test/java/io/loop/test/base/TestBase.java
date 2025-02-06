@@ -14,6 +14,7 @@ public class TestBase {
         driver= WebDriverUtil.getDriver(ConfigurationReader.getProperties("browser"));
         driver.manage().window().maximize();
 
+
     }
 
     @AfterMethod
